@@ -1,0 +1,23 @@
+{
+  "name": "awkward",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Arseniy @arseniy Ivanov <arseniy@mail.utoronto.ca>",
+  "description": "A helpful bot for CS slackers.",
+  "dependencies": {
+    "hubot": "^2.11.4",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-google-images": "^0.1.4",
+    "hubot-google-translate": "^0.1.0",
+    "hubot-help": "^0.1.1",
+    "hubot-pugme": "^0.1.0",
+    "hubot-redis-brain": "0.0.2",
+    "hubot-rules": "^0.1.0",
+    "hubot-scripts": "^2.5.16",
+    "hubot-shipit": "^0.1.2",
+    "hubot-slack": "^3.3.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
