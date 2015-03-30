@@ -10,7 +10,10 @@ ENV HOME /home/hubot
 USER hubot
 WORKDIR /home/hubot
 
-COPY . ./
+COPY package.json ./
 
 RUN npm install
+
+COPY . ./
+
 ENTRYPOINT ["./bin/hubot", "--adapter", "slack"]
